@@ -1,5 +1,9 @@
-<script setup>
-
+<script>
+  import { initOrbiter } from "@junobuild/analytics";
+  await initOrbiter({
+    satelliteId: "hceyd-iaaaa-aaaal-adbbq-cai",
+    orbiterId: "plugc-dqaaa-aaaal-ac2wa-cai",
+  });
 </script>
 
 <template>
